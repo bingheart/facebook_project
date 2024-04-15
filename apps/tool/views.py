@@ -34,6 +34,7 @@ def set_facebook_posts(request):
 
 @api_view(['POST'])
 def set_facebook_queue(request):
+
     is_post = request.data.get('is_post',False)
     page = request.data.get('page',1)
     id = request.data.get('id',None)

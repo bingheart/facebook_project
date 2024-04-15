@@ -21,7 +21,6 @@ urlpatterns = [
     path('set_facebook_posts', views.set_facebook_posts),
     path('set_facebook_queue', views.set_facebook_queue),
     path('set_facebook_user', views.set_facebook_user),
-    path('set_facebook_user', views.set_facebook_user),
     path('login', views.login),
     path('get_posts', views.get_posts),
 
