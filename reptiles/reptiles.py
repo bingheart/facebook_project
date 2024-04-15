@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 import requests
 import undetected_chromedriver as webdriver
-from facebook_reptiles.facebook_project.facebook_project.settings import CACHES
+from facebook_project.settings import CACHES
 import redis
 
 class FacebookCom():
